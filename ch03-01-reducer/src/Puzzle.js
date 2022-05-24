@@ -5,7 +5,8 @@ import './Puzzle.css'
 
 const Puzzle = () => {
   const [state, dispatch] = useReducer(reducer, {
-    items: ['4', '1', '2', '7', '6', '3', null, '5', '8'],
+    items: ['4', '1', '2', '7', '6', '3', null, '5', '8'],  // Initial state
+    complete: false,
   })
 
   return (

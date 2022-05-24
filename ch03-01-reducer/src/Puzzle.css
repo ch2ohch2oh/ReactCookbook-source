@@ -1,6 +1,7 @@
 .Puzzle-squares {
     display: inline-grid;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    /* Next two lines make the grid */
     grid-template-columns: 72px 72px 72px;
     grid-template-rows: 72px 72px 72px;
     grid-gap: 0;
